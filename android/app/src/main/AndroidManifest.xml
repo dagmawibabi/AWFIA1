@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="awfia1"
+
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -13,6 +13,8 @@ class MovieDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // TODO IMPLEMENT PROPER MOVIE DETAILS PAGE
+
     return Scaffold(
       appBar: AppBar(
         title: Text(title),

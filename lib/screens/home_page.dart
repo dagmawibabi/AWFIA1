@@ -51,6 +51,7 @@ class _HomePageState extends State<HomePage> {
               Icons.bookmark_outline_sharp,
             ),
           ),
+          // TODO CREATE THEME FUNCTIONALITY
           IconButton(
             icon: const Icon(Icons.wb_sunny_outlined),
             onPressed: () {},
@@ -59,6 +60,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Column(
         children: [
+          // TODO Create Search Function
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextField(
@@ -73,6 +75,8 @@ class _HomePageState extends State<HomePage> {
               onChanged: (value) {},
             ),
           ),
+
+          // TODO Implement Proper Fetch From API
           Expanded(
             child: GridView.builder(
               padding: const EdgeInsets.only(left: 15.0),

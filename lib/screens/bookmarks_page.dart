@@ -7,6 +7,7 @@ class BookmarksPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // TODO FETCH BOOKMARKS FROM LOCAL STORAGE
     final List<Map<String, String>> bookmarkedMovies = [
       {
         'title': 'Bookmarked Movie 1',
@@ -39,6 +40,7 @@ class BookmarksPage extends StatelessWidget {
               Icons.auto_awesome_outlined,
             ),
           ),
+          // TODO IMPLEMENT CLEARING BOOKMARKS FROM LOCAL STORAGE
           IconButton(
             onPressed: () {},
             icon: const Icon(

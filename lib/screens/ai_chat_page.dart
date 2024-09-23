@@ -15,6 +15,8 @@ class _AIChatPageState extends State<AIChatPage> {
   final TextEditingController _textController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
 
+  // TODO IMPLEMENT GEMINI API FETCHING
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,6 +46,7 @@ class _AIChatPageState extends State<AIChatPage> {
       ),
       body: Column(
         children: [
+          // TODO IMPLEMENT PROPER CHAT INTERFACE
           Expanded(
             child: ListView.builder(
               controller: _scrollController,
